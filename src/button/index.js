@@ -7,7 +7,7 @@ class Button extends Component {
     render({color, children, disabled, size, ...props}) {
         let classes = {
             [`zui-btn-${color}`]: color,
-            [`zui-btn-size`]: size
+            [`zui-btn-${size}`]: size
         }
         return (
             <button
